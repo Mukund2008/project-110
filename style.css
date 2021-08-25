@@ -1,0 +1,54 @@
+body{
+ background-color:pink;
+}
+
+#img1
+{
+ border-radius: 50px;
+ width: 200px;
+}
+
+.header
+{
+ margin-top: 25px;
+ font-size: 25px;
+}
+
+.img
+{
+ border-radius: 10px;
+ width: 200px;
+ height: 250px;
+}
+
+b{
+ font-size: 20px;
+}
+
+.test_img
+{
+    padding: 10px;
+ margin-top: 25px;
+ box-shadow: 5px 5px 5px black;
+ width: 600px;
+ border-radius: 20px;
+ background-color: plum;
+}
+
+.output
+{
+ color: red;
+ font-size: 20px;
+}
+
+#footer
+{
+ width: 70%;
+ text-align: left;
+ background-color: crimson;
+ color: black;
+border-radius: 10px;
+padding: 5px;
+margin: 30px;
+
+}

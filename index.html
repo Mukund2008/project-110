@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+       <link rel="stylesheet" href="style.css">
+      
+      </head>
+
+<body>
+<center>
+ <div class="header">
+     Case Study 
+            <img id="img1" src="images.jfif">
+ </div>
+
+<div class="test_img">
+  
+     <b>Test Image 1-</b>
+     <br><br>
+     <img src="shoes.jpeg"  class="img_responsive img">
+  <h4>
+     Output on:
+    <b>Microsoft Azure-</b>  
+    <span class="output">  Shoes</span>
+  </h4>
+  <h4>
+    Output on:
+   <b>Mobilenet-</b>  
+   <span class="output">  Running Shoes</span>
+ </h4>
+ <hr>
+ <h4><b>Mobilenet</b> is more Accurate</h4>
+</div>
+<br><br>
+<div class="test_img">
+  
+  <b>Test Image 2-</b>
+  <br><br>
+  <img src="best-water-bottles-1556763931.png"  class="img_responsive img">
+<h4>
+  Output on:
+ <b>Microsoft Azure-</b>  
+ <span class="output">  Bottle</span>
+</h4>
+<h4>
+ Output on:
+<b>Mobilenet-</b>  
+<span class="output">  Water Bottle</span>
+</h4>
+<hr>
+<h4><b>Mobilenet</b> is more Accurate</h4>
+</div>
+
+<br><br>
+<div class="test_img">
+  
+  <b>Test Image 3-</b>
+  <br><br>
+  <img src="JBL_TUNE_7508TNC_Black_Front_1605x1605px.png"  class="img_responsive img">
+<h4>
+  Output on:
+ <b>Microsoft Azure-</b>  
+ <span class="output">  Dumbell</span>
+</h4>
+<h4>
+ Output on:
+<b>Mobilenet-</b>  
+<span class="output">  Micophone,Mike</span>
+</h4>
+<hr>
+<h4><b>Mobilenet</b> is more Accurate</h4>
+</div>
+
+<br><br>
+<div class="test_img">
+  
+  <b>Test Image 4-</b>
+  <br><br>
+  <img src="fountain-pens-250x250.jpg"  class="img_responsive img">
+<h4>
+  Output on:
+ <b>Microsoft Azure-</b>  
+ <span class="output">  Fountain pen</span>
+</h4>
+<h4>
+ Output on:
+<b>Mobilenet-</b>  
+<span class="output">  Ball point,Ball point pen,Ballpen,Biro</span>
+</h4>
+<hr>
+<h4><b>Microsoft Azure</b> is more Accurate</h4>
+</div>
+
+<br><br>
+<div class="test_img">
+  
+  <b>Test Image 5-</b>
+  <br><br>
+  <img src="queen-size-bed-500x500.jpg"  class="img_responsive img">
+<h4>
+  Output on:
+ <b>Microsoft Azure-</b>  
+ <span class="output">  Infant Bed</span>
+</h4>
+<h4>
+ Output on:
+<b>Mobilenet-</b>  
+<span class="output">  Bath tub,Bathing tub,Tub</span>
+</h4>
+<hr>
+<h4><b>Microsoft Azure</b> is more Accurate</h4>
+</div>
+
+<h4 id="footer">
+I have tested 5 images
+<br>
+<b>ModileNet</b> has pedicted 3 of them correctly.<b>Microsoft Azure</b> has predected 2 of them correctly.So according to my case study<b>MobileNet</b> is more accurate.
+</h4>
+
+</center>
+    
+</body>
+
+</html>
